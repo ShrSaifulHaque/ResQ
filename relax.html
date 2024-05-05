@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relax Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    
+
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .mobile-container {
+          max-width: 100%;
+          
+        }
+        
+        .topnav {
+          overflow: hidden;
+          
+          position: relative;
+        }
+        
+        .topnav #myLinks {
+          display: none;
+        }
+        
+        .topnav a {
+          color: rgb(191, 7, 7);
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          display: block;
+        }
+        
+        .topnav a.icon {
+         
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          
+        }
+        
+        .active {
+          
+          color: white;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+        
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="safety.html" class="active">ResQ</a>
+          <div id="myLinks">
+            <a href="safety.html">Safety</a>
+            <a href="emergency.html">Emergency</a>
+            <a href="relax.html">Relax</a>
+            <a href="support.html">Support</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        
+        
+        <!-- End smartphone / tablet look -->
+        </div>
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+    
+<h4>Relax Dashboard</h4>
+
+   <img class="border" src="img/mall.png" alt="">
+   <h5>Shopping Mall</h5>
+   <img  class="border" src="img/tourists.png" alt="">
+   <h5> Tourists</h5>
+   <img  class="border"  src="img/restaurants.png" alt="">
+   <h5> Restaurants</h5>
+   <img  class="border"  src="img/Event.png" alt="">
+   <h5> Event </h5>
+   <img  class="border"  src="img/holy.png" alt="">
+   <h5> Holy Places</h5>
+</div>
+</body>
+</html>
